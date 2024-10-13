@@ -136,6 +136,7 @@ def split_host_pattern(pattern):
     return [p.strip() for p in patterns if p.strip()]
 
 
+# TODO
 class InventoryManager(object):
     """ Creates and manages inventory """
 

@@ -28,6 +28,7 @@ from ansible.vars.hostvars import HostVars, HostVarsVars
 from ansible.vars.manager import VarsWithSources
 
 
+# TODO
 class AnsibleDumper(SafeDumper):
     """
     A simple stub class that allows us to add representers

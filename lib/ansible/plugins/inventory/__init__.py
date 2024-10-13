@@ -145,6 +145,7 @@ def get_cache_plugin(plugin_name, **kwargs):
     return cache
 
 
+# TODO
 class BaseInventoryPlugin(AnsiblePlugin):
     """ Parses an Inventory Source"""
 
